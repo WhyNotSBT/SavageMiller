@@ -28,7 +28,7 @@ def key_pressed(key):
 
 
 while True:
-	if key_pressed(0x11) and key_pressed(binded_key):
+	if key_pressed(0x11) and key_pressed(binded_key): # 0x11 = "T"
 		Start_pos = [0, 0]
 		End_pos = [0, 0]
 	while key_pressed(binded_key):
